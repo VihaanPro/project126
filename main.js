@@ -1,10 +1,24 @@
+song="";
+
+function preload(){
+
+	song=loadSound("music.mp3");
+
+}
 function setup(){
-    canvas=createCanvas(300,350);
-    canvas.center();
-    video=createCapture(VIDEO);
-    video.size(300,350);
-    video.hide();
+
+	canvas=createCanvas(600,500);
+	canvas.center();
+
+	video= createCapture(VIDEO);
+	video.hide();
+
 }
 function draw(){
-    image(video,0,100,300,350);
+
+image(video,0,0,600,500);
+}
+function play(){
+
+	song.play();
 }

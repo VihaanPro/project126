@@ -12,9 +12,13 @@
 body{
     background-size: cover;
 }
-canvas{
-    border-radius: 10px solid black;
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
+.play_button
+  {
+  	width: 130px;
+  	font-size: 25px;
+  }
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+  }
